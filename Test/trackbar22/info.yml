@@ -1,25 +1,7 @@
 ---
 -
-  authors: 'Peter Leurs and Geert Hauwaerts'
-  commands:
-    - mark
-    - trackbar
-    - 'trackbar goto'
-    - 'trackbar keep'
-    - 'trackbar mark'
-    - 'trackbar markall'
-    - 'trackbar markvisible'
-    - 'trackbar redraw'
-    - 'trackbar remove'
-    - 'trackbar removeall'
-  contact: peter@pfoe.be
-  default_package: trackbar22
-  description: 'Shows a bar where you have last read a window.'
-  license: 'GNU General Public License'
-  modified: '2017-05-12 10:45:31'
-  modules:
-    - Text::CharWidth
-  name: trackbar
-  patchers: 'Johan Kiviniemi (UTF-8), Uwe Dudenhoeffer (on-upgrade-remove-line)'
-  url: http://www.pfoe.be/~peter/trackbar/
-  version: '2.4'
+  HIDDEN: 1
+  description: 'This script has been replaced with trackbar.pl.'
+  modified: '2018-02-01 16:16:29'
+  name: trackbar22
+  version: '2.5'

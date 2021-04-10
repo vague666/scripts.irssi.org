@@ -3,16 +3,19 @@
   authors: Nei
   commands:
     - awl
+    - 'awl ack'
+    - 'awl attach'
+    - 'awl detach'
     - 'awl redraw'
     - 'awl restart'
   contact: 'Nei @ anti@conference.jabber.teamidiot.de'
   default_package: adv_windowlist
   description: 'Adds a permanent advanced window list on the right or in a status bar.'
   license: 'GNU GPLv2 or later'
-  modified: '2017-05-12 10:45:31'
+  modified: '2020-10-08 13:41:57'
   modules:
     - Text::CharWidth
   name: adv_windowlist
   sbitems: awl_shared
   url: http://anti.teamidiot.de/
-  version: '1.5'
+  version: 1.9.1
